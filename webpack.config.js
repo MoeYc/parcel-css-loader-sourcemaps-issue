@@ -7,7 +7,7 @@ module.exports = {
     mode: 'production',
     name: 'app_birkenstock/less',
     entry: {
-        'css/style': './src/less/style.less',
+        './css/style': './src/less/style.less',
     },
     plugins: [
         new MiniCssExtractPlugin()

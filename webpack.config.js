@@ -10,9 +10,6 @@ module.exports = {
         'css/style': './src/less/style.less',
     },
     plugins: [
-        // new RemoveEmptyScriptsPlugin({
-        //     enabled: true
-        // }),
         new MiniCssExtractPlugin()
     ],
     devtool: 'cheap-module-source-map',
